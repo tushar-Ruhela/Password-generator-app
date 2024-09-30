@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(35, 33, 37);
+    font-size: 16px;
+    font-family: JetBrainsMono;
+}
+h3{
+    text-align: center;
+    letter-spacing: 3px;
+    color: rgb(116, 131, 127);
+    font-size: 16px;
+}
+.password-genrator{
+   
+    color:  rgb(248, 246, 246);
+    height: auto;
+    width: 300px;
+    padding: 10px;
+   
+    margin: auto;
+}
+.generated-paswd{
+    height: 30px;
+    width: 93%;
+    background-color: rgb(57, 68, 56);
+    color:  rgb(248, 246, 246);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#paswd{
+    font-size: 20px;
+    margin-left: 50px;
+    
+}
+
+.chekbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+
+.chekbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+
+input[type="checkbox"]:checked {
+    background-color:rgb(58, 207, 58);
+   
+   
+}
+
+
+
+.chekbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.customize-option{
+    background-color: rgb(45, 48, 43);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:20px;
+    gap: 15px;
+    border-radius: 5px;
+}
+.customize-button{
+    margin: 4px;
+}
+.customize-button label{
+
+    font-size: 14px;
+    margin-left: auto;
+    margin-top: 0px;
+    
+}
+
+    
+    /* Slider styles */
+.slider {
+  -webkit-appearance: none;
+  appearance: none; 
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  height: 6px;
+  background: rgb(240, 242, 245);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none; 
+  height: 15px;
+  width: 15px;
+  background-color: rgb(240, 242, 245);
+  border-radius: 50%;
+  border: none;
+  transition: .2s ease-in-out;
+}
+
+.slider::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(240, 242, 245);
+  border-radius: 50%;
+  border: none;
+  transition: .2s ease-in-out;
+}
+
+
+.slider::-webkit-slider-thumb:hover{
+  box-shadow: 0 0 0 10px rgba(58, 207, 58, .1);
+}
+
+.slider::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(58, 207, 58, .1);
+}
+
+      
+      .value2 {
+        font-size: 20px;    
+        width: 10px;
+        text-align: center;
+      }
+      
+    .length label{
+        font-size: 12px;
+    }
+    .strenght{
+        height: 30px;
+display: flex;
+flex-direction: row;
+padding-top:10px ;
+padding-right: 10px;
+padding-left: 10px;
+justify-content: space-between;
+background-color:rgb(64, 66, 63) ;
+
+    }
+    .para-strenght{
+        font-size: 12px;
+        margin-top: 3px;
+        color: rgb(84, 84, 90);
+    }
+    .level-section{
+        display: flex;
+        gap: 8px;
+    
+    }
+    .level-show{
+        height: 20px;
+        width: 6px;
+        background-color:  rgb(240, 242, 245);
+        
+    }
+    #generate-button{
+        height: 20px;
+        width: 90%;
+        border-radius: 5px;
+     text-align: center;
+        border: 2px solid rgb(131, 211, 135);
+        color: rgb(131, 211, 135);
+        font-size: 16px;
+        padding:10px;
+        }
+        #generate-button:hover{
+          cursor: pointer;
+          background-color: rgb(67, 83, 70);
+        }
+        @font-face {
+            font-family:JetBrainsMono ;
+            src: url(assets/fonts/static/JetBrainsMono-Bold.ttf);
+        }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Password generator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="password-genrator">
+   <h3>Password Generator</h3> 
+   <div class="generated-paswd">
+    <span id="paswd">SUV##88392</span>
+    <div class="image"><img src="assets/images/icon-copy.svg" alt="icon-copy"></div>
+   </div>
+
+
+   <div class="customize-option">
+    <div class="length">
+
+      <label for="myRange">Character length</label>  <br>
+      <input  type="range" min="1" max="20" value="0" class="slider" id="myRange"><div class="value">0</div>
+      
+    </div>
+    <div class="checkbox">
+    <div class="customize-button"><input type="checkbox" class="Uppercase"><label>Include Uppercase Letter</label> </div>
+    <div class="customize-button"><input type="checkbox" class="Lowercase"><label>Include Lowercase letter</label></div>
+    <div class="customize-button"><input type="checkbox" class="Number"><label>Include Number</label></div>
+    <div class="customize-button"><input type="checkbox" class="Symbols"><label>Include Symbols</div>
+  </div>
+    <div class="strenght">
+      <div class="para-strenght"><span>STRENGTH</span></div>
+      <div class="level-section">
+      <div class="level">
+       MEDIUM
+      </div>
+      <div class="level-show" id="level1"></div>
+      <div class="level-show" id="level2"></div>
+      <div class="level-show" id="level3"></div>
+      <div class="level-show" id="level4"></div>
+    </div>
+    </div>
+    <div id="generate-button">
+      Generate ->
+     </div>
+   </div>
+  
+
+  </div>
+  <script src="https://unpkg.com/check-password-strength/dist/umd.js"></script>
+
+    
+  <script src="generator.js"></script>
+
+</body>
+</html>
